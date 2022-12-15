@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 class TestDynamicContent:
 
     def setup_method(self):
-        self.driver = webdriver.Chrome(executable_path='D:\WORK\PycharmProjects\what_can_I_do\chromedriver')
+        self.driver = webdriver.Chrome()
         self.driver.get('https://the-internet.herokuapp.com/dynamic_content')
         self.driver.implicitly_wait(5)
 

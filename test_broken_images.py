@@ -5,8 +5,9 @@ from selenium.webdriver.common.by import By
 
 
 class TestBrokenImages:
+
     def setup_method(self):
-        self.driver = webdriver.Chrome(executable_path='D:\WORK\PycharmProjects\what_can_I_do\chromedriver.exe')
+        self.driver = webdriver.Chrome()
         self.driver.get('https://the-internet.herokuapp.com/broken_images')
 
     def test_find_broken_img(self):

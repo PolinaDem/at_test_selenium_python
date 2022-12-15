@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 class TestDisappearingElements:
 
     def setup_method(self):
-        self.driver = webdriver.Chrome(executable_path='D:\WORK\PycharmProjects\what_can_I_do\chromedriver.exe')
+        self.driver = webdriver.Chrome()
         self.driver.get('https://the-internet.herokuapp.com/disappearing_elements')
 
     def test_disappearing_elements(self):

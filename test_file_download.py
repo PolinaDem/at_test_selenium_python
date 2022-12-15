@@ -8,9 +8,9 @@ class TestFileDownload:
     def setup_method(self):
 
         options = webdriver.ChromeOptions()
-        prefs = {'download.default_directory': 'D:\\WORK\\PycharmProjects\\what_can_I_do\\test_files_AT\\'}
+        prefs = {'download.default_directory': 'D:\\WORK\\PycharmProjects\\at_test_selenium_python\\test_files_AT\\'}
         options.add_experimental_option('prefs', prefs)
-        self.driver = webdriver.Chrome(executable_path='D:\WORK\PycharmProjects\what_can_I_do\chromedriver', options=options)
+        self.driver = webdriver.Chrome(options=options)
 
         self.driver.get("https://the-internet.herokuapp.com/download")
         self.driver.implicitly_wait(5)

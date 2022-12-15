@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class TestBasicAuthentication:
 
     def setup_method(self):
-        self.driver = webdriver.Chrome(executable_path="D:\WORK\PycharmProjects\what_can_I_do\chromedriver.exe")
+        self.driver = webdriver.Chrome()
 
     def test_basic_authentication(self):
         user = 'admin'

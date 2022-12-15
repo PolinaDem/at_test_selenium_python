@@ -3,10 +3,9 @@ from selenium.webdriver.common.by import By
 
 
 class TestClick:
-    driver = ''
 
     def setup_method(self):
-        self.driver = webdriver.Chrome(executable_path='D:\WORK\PycharmProjects\what_can_I_do\chromedriver.exe')
+        self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(2)
         self.driver.get('https://the-internet.herokuapp.com/add_remove_elements/')
 
