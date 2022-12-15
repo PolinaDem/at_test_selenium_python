@@ -1,5 +1,5 @@
-# при наведении на панель сверху появляется модал. окно (курсор должен быть в рабочей области в начале теста)
-# If cursor was not directly in workspace after the start of test, then test failed
+# mouse out of the viewport pane and see a modal window appear
+# /!\ if cursor was not directly in workspace after the start of test, then test failed
 from selenium import webdriver
 import time
 from selenium.webdriver import ActionChains

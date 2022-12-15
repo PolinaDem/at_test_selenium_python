@@ -1,9 +1,9 @@
+# add explicit and implicit expectation of elements
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-# добавить явное и неявное ожидание елементов add explicit and implicit expectation of elements
 class TestDynamicElements:
 
     def setup_method(self):

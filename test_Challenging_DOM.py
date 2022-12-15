@@ -1,3 +1,4 @@
+# find the best locators in a table with no helpful locators, and a canvas element
 import re
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException

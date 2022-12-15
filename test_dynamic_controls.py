@@ -1,10 +1,11 @@
+# this example demonstrates when elements are changed asynchronously
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-class TestDynamicControls():
+class TestDynamicControls:
 
     def setup_method(self):
         self.driver = webdriver.Chrome(executable_path='D:\WORK\PycharmProjects\what_can_I_do\chromedriver')

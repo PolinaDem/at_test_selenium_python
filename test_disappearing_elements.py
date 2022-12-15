@@ -1,3 +1,4 @@
+# this example demonstrates when elements on a page change by disappearing/reappearing on each page load
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException

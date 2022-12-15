@@ -1,3 +1,4 @@
+# find broken images and return their count
 from selenium import webdriver
 import requests
 from selenium.webdriver.common.by import By

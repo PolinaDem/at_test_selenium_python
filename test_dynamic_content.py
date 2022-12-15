@@ -1,8 +1,8 @@
+# content updated after refresh
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-# проверить что контент меняется при обновлении страницы
 class TestDynamicContent:
 
     def setup_method(self):
@@ -13,7 +13,7 @@ class TestDynamicContent:
     def test_dynamic_image(self):
         z = self.driver.find_elements(By.TAG_NAME, "img")   # all images - list
 
-        list = []                                           # creqte list with all image
+        list = []                                           # create list with all image
         for img in z:
             b = img.get_attribute('outerHTML')              # "scr" of every image - str
             for i in b.split( ):                            # split data about image by space
