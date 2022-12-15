@@ -17,7 +17,7 @@ class TestBrokenImages:
         for img in img_list:
             response = requests.get(img.get_attribute('src')).status_code
             if response != 200:
-                print(img.get_attribute('outerHTML') + " is broken.")  # outerHTML получает все данные из блока, вкл теги
+                print(img.get_attribute('outerHTML') + " is broken.")  
                 broken_img = (broken_img + 1)
 
         print('Number of broken images: ', broken_img)
