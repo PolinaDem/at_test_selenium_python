@@ -32,6 +32,7 @@ Autotests that check web elements and processes in the Chrome browser (frontend)
 | [Dynamic controls](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_dynamic_controls.py) | test_dynamic_controls | Elements are changed asynchronously |
 | [Dynamically loaded page elements](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_dynamically_loaded_page_elements.py) | test_dynamically_loaded_page_elements | Adding explicit and implicit expectation of elements  |
 | [Exit intent](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_exit_intent.py) | test_exit_intent | Mouse out of the viewport pane and see a modal window appear |
+| [Entry ad](https://github.com/PolinaDem/at_test_selenium_python/blob/main/entry_ad.py) | entry_ad | Pop-up displays an ad on page load |
 | [File download](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_file_download.py) | test_file_download | - |
 | [File upload]() | test_file_upload | not finished yet |
 
