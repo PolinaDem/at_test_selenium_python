@@ -34,7 +34,7 @@ Autotests that check web elements and processes in the Chrome browser (frontend)
 | [Exit intent](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_exit_intent.py) | test_exit_intent | Mouse out of the viewport pane and see a modal window appear |
 | [Entry ad](https://github.com/PolinaDem/at_test_selenium_python/blob/main/entry_ad.py) | entry_ad | Pop-up displays an ad on page load |
 | [File download](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_file_download.py) | test_file_download | - |
-| [File upload]() | test_file_upload | not finished yet |
+| [File upload](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_file_upload.py) | test_file_upload | Upload by button and by modal window on the page |
 
 ## Installation instructions
 How to start working on tests with **Selenium** you can discover [here](https://www.selenium.dev/documentation/). \
