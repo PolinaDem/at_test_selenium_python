@@ -10,16 +10,19 @@
   - Contact information
     
 ## Description
-Autotests that check web elements and processes in the Chrome browser (frontend). 
+Autotests that check web elements and processes in the Chrome browser. 
 - Language used: Python, 
 - Library used: Selenium, 
 - Framework: Pytest.
-- Source of portals: https://the-internet.herokuapp.com/.
+- Source of portals for frontend: https://the-internet.herokuapp.com/,
+- Source of portals for backend: http://restful-booker.herokuapp.com/
+  ⚠️ The API comes pre-loaded with 10 records for work with and resets itself every 10 minutes back to that default state.
 
 ## Projects
 
 | Project | File name    | Description    |
 | :-----: | :---: | :---: |
+| FE |    |     |
 | [Basic authentication](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_basic_authentication.py) | test_basic_authentication | Authorization via web request |
 | [Broken images](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_broken_images.py) | test_broken_images | Find broken images and return their count |
 | [Challenging DOM](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_Challenging_DOM.py) | test_Challenging_DOM | Find the best locators in a table with no helpful locators, and a canvas element |
@@ -35,6 +38,11 @@ Autotests that check web elements and processes in the Chrome browser (frontend)
 | [Entry ad](https://github.com/PolinaDem/at_test_selenium_python/blob/main/entry_ad.py) | entry_ad | Pop-up displays an ad on page load |
 | [File download](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_file_download.py) | test_file_download | - |
 | [File upload](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_file_upload.py) | test_file_upload | Upload by button and by modal window on the page |
+|    |    |     |
+| BE |    |     |
+| [Create token](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/create_token.py) |  create_token  |     |
+| [Get booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/get_booking.py) |  get_booking  |  With query components   |
+| [Get booking ids](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/get_booking_ids.py) |  get_booking_ids  |  With url parameter   |
 
 ## Installation instructions
 How to start working on tests with **Selenium** you can discover [here](https://www.selenium.dev/documentation/). \
