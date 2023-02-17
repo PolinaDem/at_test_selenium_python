@@ -24,3 +24,16 @@ if resp.status_code != 200:
     print('error: ' + str(resp.status_code))
 else:
     print('Success' + '\n' + str(resp.content))
+
+
+# Check booking was created
+resp = resp.json()
+id = resp['bookingid']
+print("id =", id)
+
+resp = requests.get(f"{URL}/{id}")
+
+if resp.status_code != 200:
+    print('error: ' + str(resp.status_code))
+else:
+    print('Success' + '\n' + str(resp.json()))
