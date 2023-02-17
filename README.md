@@ -38,11 +38,13 @@ Autotests that check web elements and processes in the Chrome browser.
 | [Entry ad](https://github.com/PolinaDem/at_test_selenium_python/blob/main/entry_ad.py) | entry_ad | Pop-up displays an ad on page load |
 | [File download](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_file_download.py) | test_file_download | - |
 | [File upload](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_file_upload.py) | test_file_upload | Upload by button and by modal window on the page |
+| [Floating menu](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_floating_menu.py)   |  test_floating_menu  |  The menu moves along with the page scroll. Parameterization is implemented   |
 |    |    |     |
 | BE |    |     |
 | [Create token](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/create_token.py) |  create_token  |     |
 | [Get booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/get_booking.py) |  get_booking  |  With query components   |
 | [Get booking ids](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/get_booking_ids.py) |  get_booking_ids  |  With url parameter   |
+| [Create booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/create_booking.py)   |  create_booking  |     |
 
 ## Installation instructions
 How to start working on tests with **Selenium** you can discover [here](https://www.selenium.dev/documentation/). \

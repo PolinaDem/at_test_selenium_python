@@ -6,7 +6,7 @@ import pyautogui
 class TestFileUpload:
 
     def setup_method(self):
-        self.driver = webdriver.Chrome(executable_path='D:\WORK\PycharmProjects\what_can_I_do\chromedriver')
+        self.driver = webdriver.Chrome()
         self.driver.get("https://the-internet.herokuapp.com/upload")
         self.driver.implicitly_wait(5)
 
