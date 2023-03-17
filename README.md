@@ -39,13 +39,14 @@ Autotests that check web elements and processes in the Chrome browser.
 | [File download](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_file_download.py) | test_file_download | - |
 | [File upload](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_file_upload.py) | test_file_upload | Upload by button and by modal window on the page |
 | [Floating menu](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_floating_menu.py)   |  test_floating_menu  |  The menu moves along with the page scroll. Parameterization is implemented   |
-| [Login page](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_login_page.py)   | test_login_page   |  login into the secure area   |
+| [Login page](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_login_page.py)   | test_login_page   |  Login into the secure area   |
 |    |    |     |
 | BE |    |     |
 | [Create token](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/create_token.py) |  create_token  |     |
-| [Get booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/get_booking.py) |  get_booking  |  With query components   |
-| [Get booking ids](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/get_booking_ids.py) |  get_booking_ids  |  With url parameter   |
+| [Get booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/get_booking.py) |  get_booking  |  Use url parameter   |
+| [Get booking ids](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/get_booking_ids.py) |  get_booking_ids  |     |
 | [Create booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/create_booking.py)   |  create_booking  |     |
+| [Update booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/update_booking.py)   | update_booking   | Take token from another file, use cookie and url parameter    |
 
 ## Installation instructions
 How to start working on tests with **Selenium** you can discover [here](https://www.selenium.dev/documentation/). \
