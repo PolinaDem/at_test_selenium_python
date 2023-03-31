@@ -42,11 +42,13 @@ Autotests that check web elements and processes in the Chrome browser.
 | [Login page](https://github.com/PolinaDem/at_test_selenium_python/blob/main/test_login_page.py)   | test_login_page   |  Login into the secure area   |
 |    |    |     |
 | BE |    |     |
-| [Create token](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/create_token.py) |  create_token  |     |
-| [Get booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/get_booking.py) |  get_booking  |  Use url parameter   |
-| [Get booking ids](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/get_booking_ids.py) |  get_booking_ids  |     |
-| [Create booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/create_booking.py)   |  create_booking  |     |
-| [Update booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/update_booking.py)   | update_booking   | Take token from another file, use cookie and url parameter    |
+| [Create token](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/create_token.py) |  create_token  | Method: POST   |
+| [Get booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/get_booking.py) |  get_booking  |  Use url parameter. Method: GET   |
+| [Get booking ids](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/get_booking_ids.py) |  get_booking_ids  | Method: GET    |
+| [Create booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/create_booking.py)   |  create_booking  | Method: POST    |
+| [Update booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/update_booking.py)   | update_booking   | Take token from another file, use cookie and url parameter. Method: PUT    |
+| [Partial update booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/partial_update_booking.py)   | partial_update_booking   | Take token from another file, use cookie and url parameter. Method: PATCH    |
+| [Delete booking](https://github.com/PolinaDem/at_test_selenium_python/blob/main/API/delete_booking.py)   | delete_booking   | Take token from another file, use cookie and url parameter. Method: DELETE    |
 
 ## Installation instructions
 How to start working on tests with **Selenium** you can discover [here](https://www.selenium.dev/documentation/). \

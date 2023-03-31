@@ -18,4 +18,4 @@ if resp.status_code != 200:
     print('error: ' + str(resp.status_code))
 else:
     print('token: ' + str(tk))
-    print('Success')
+    print('Success: token was created')
