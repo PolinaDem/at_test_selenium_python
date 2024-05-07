@@ -60,4 +60,4 @@ Pytest 7.0.1
 
 ## Contact information
 Polina Demina\
-saperovapo@yandex.ru
+pp.demina@gmail.com
